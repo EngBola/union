@@ -33,6 +33,13 @@ $(document).ready(function(){
         $(e.target).addClass('active');
 
     })
+    let mainPhotoSrc = $('.main-photo img').attr('src');
+    let photoSrc = $('.collect img').click(function(e){
+        let src = $(e.target).attr('src');
+        $('.main-photo img').attr('src',src)
+        console.log(src)
+    })
+
 
 
 

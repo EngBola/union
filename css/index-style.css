@@ -422,24 +422,28 @@ header .overlay {
     color: var(--base-color);
 }
 .portfolio .photo-preview{
+    width: 50%;
     position: relative;
+    overflow: hidden;
 }
 .portfolio img{
     cursor: pointer;
 }
 .portfolio .main-photo{
-    height: 300px;
     overflow: hidden;
+    /* transform: translateY(-5%); */
+    
 }
 .portfolio .main-photo img{
-    transform: translateY(-10%);
+    /* transform: translateY(-10%); */
     transition: all 1s;
+    
 }
 .portfolio .main-photo img:hover{
-    transform: translateY(-25%);
+    /* transform: translateY(-25%); */
     cursor: zoom-in;
 }
-.arows{
+.portfolio .arows{
     padding: 0 10px;
     color: var(--base-color);
     position: absolute;
@@ -450,11 +454,18 @@ header .overlay {
     justify-content: space-between;
     z-index: 500;
 }
-.arows i{
+.portfolio .arows i{
     opacity:0.5;
     cursor: pointer;
 }
-.arows i:hover{
+.portfolio .arows i:hover{
     opacity: 1;
+}
+.portfolio .caption{
+    position:absolute;
+    top:1%;
+    left: 1%;
+    /* bottom: 0; */
+
 }
 /*-------------------------end Portfolio-----------------------------*/
