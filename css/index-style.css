@@ -117,11 +117,11 @@ header {
 
 
     0% {
-        background-image: url(../images/Home.webp);
+        background-image: url(../images/union.webp);
     }
 
     10% {
-        background-image: url(../images/home.webp);
+        background-image: url(../images/union.webp);
     }
 
     20% {
@@ -157,7 +157,7 @@ header {
     }
 
     100% {
-        background-image: url(../images/home.webp);
+        background-image: url(../images/union.webp);
     }
 
 }
